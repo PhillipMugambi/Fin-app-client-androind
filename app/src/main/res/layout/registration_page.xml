@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enteramountnumberlay"
+        android:layout_marginTop="@dimen/activity_horizontal_margin2"
+        android:background="@drawable/btn_corner5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_person_black_24dp"
+            android:tint="@color/fontColor" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/green1" />
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:elegantTextHeight="true"
+            android:hint="First Name"
+            android:padding="15dp"
+            android:singleLine="true" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enteramountnumberlay12"
+        android:layout_marginTop="@dimen/activity_horizontal_margin12"
+        android:background="@drawable/btn_corner5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_person_black_24dp"
+            android:tint="@color/fontColor" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/green1" />
+
+        <EditText
+            android:id="@+id/secondName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:elegantTextHeight="true"
+            android:hint="Second Name"
+            android:padding="15dp"
+            android:singleLine="true" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enteramountnumberlay1"
+        android:layout_marginTop="@dimen/activity_horizontal_margin13"
+        android:background="@drawable/btn_corner5"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_lock_white_24dp"
+            android:tint="@color/fontColor" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/green1" />
+
+        <EditText
+            android:id="@+id/mobilenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:elegantTextHeight="true"
+            android:hint="Mobile Number"
+            android:padding="15dp"
+            android:singleLine="true" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enteramountnumberlay4"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/btn_corner5"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_lock_white_24dp"
+            android:tint="@color/fontColor" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/green1" />
+
+        <EditText
+            android:id="@+id/NationalID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:elegantTextHeight="true"
+            android:hint="NationalID"
+            android:padding="15dp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enteramountnumberlay3"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/btn_corner5"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_lock_white_24dp"
+            android:tint="@color/fontColor" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/green1" />
+
+        <EditText
+            android:id="@+id/pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:elegantTextHeight="true"
+            android:hint="PIN"
+            android:padding="15dp"
+            android:singleLine="true" />
+
+
+    </LinearLayout>
+
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/username"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:hint="User Name"-->
+    <!--        android:gravity="center"-->
+    <!--        android:background="@drawable/custom_input"-->
+    <!--        android:layout_marginTop="50dp"/>-->
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/password"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:hint="Password"-->
+    <!--        android:gravity="center"-->
+    <!--        android:background="@drawable/custom_input"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:layout_below="@id/username"/>-->
+    <!--    <EditText-->
+    <!--        android:id="@+id/repassword"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:hint="`Retype Password"-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:background="@drawable/custom_input"-->
+    <!--        android:layout_below="@id/password"/>-->
+    <!--    <Button-->
+    <!--        android:id="@+id/btnsignup"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:text="Register"-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:background="@drawable/custom_button"-->
+    <!--        android:layout_below="@+id/repassword"/>-->
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="580dp"
+
+        android:background="@drawable/custom_button"
+        android:text="Register"></Button>
+
+
+</RelativeLayout >

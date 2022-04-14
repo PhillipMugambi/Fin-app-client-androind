@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/root_calling_gradient"
+    android:fillViewport="true">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enteramountnumberlay"
+        android:hint="Mobile Number"
+        android:layout_marginTop="@dimen/activity_horizontal_margin2"
+        android:background="@drawable/btn_corner5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_person_black_24dp"
+            android:tint="@color/fontColor" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/green1"
+            android:foreground="@drawable/edu2" />
+
+        <EditText
+            android:id="@+id/accountnumber1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:hint="Phone Number"
+            android:elegantTextHeight="true"
+            android:padding="15dp"
+            android:singleLine="true" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enteramountnumberlay1"
+        android:layout_marginTop="@dimen/activity_horizontal_margin12"
+        android:background="@drawable/btn_corner5"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@drawable/ic_lock_white_24dp"
+            android:tint="@color/fontColor" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/green1" />
+
+        <EditText
+            android:id="@+id/accountnumber2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:background="@color/transparent"
+            android:elegantTextHeight="true"
+            android:padding="15dp"
+            android:singleLine="true" />
+
+
+
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox1"
+        android:text="Remember me"
+        android:layout_marginTop="370dp"></CheckBox>
+
+    <Button
+        android:id="@+id/btnsignin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:background="@drawable/custom_button"
+        android:layout_marginTop="420dp"></Button>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="600dp"
+        android:text="Dont have An Account? Register Now" />
+
+
+</RelativeLayout >
