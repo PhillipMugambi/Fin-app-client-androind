@@ -1,7 +1,7 @@
 package com.example.invoiceapplication;
 
 public class User {
-    String pin,phonenumber;
+   // String pin,phonenumber;
 
     public User(String pin, String phonenumber) {
         this.pin = pin;
